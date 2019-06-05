@@ -12,7 +12,22 @@ body{
 
 header{
     grid-area: header;
-    background-color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header div{
+    background-color: grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+header div img{
+    height: 130px;
+    width: 100px;
 }
 
 nav{
