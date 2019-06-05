@@ -27,13 +27,27 @@ header div{
 
 header div img{
     height: 130px;
-    width: 100px;
+    width: 130px;
 }
 
 nav{
     grid-area: nav;
-    background-color: blue;
+    background-color: orangered;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+nav a{
+    color: black;
+    font-weight: 800;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover{
+    color:white;
 }
 
 section{
