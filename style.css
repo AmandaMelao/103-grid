@@ -82,4 +82,13 @@ aside p{
 footer{
     grid-area: footer;
     background-color: purple;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer a img{
+    height: 20%;
+    width: 30px;
+    display: flex;
 }
